@@ -12,7 +12,7 @@ This repository contains everything needed to build a plug-in mmWave presence se
 - A short micro USB to USB A cable, the shorter the better. I used [this one](https://smile.amazon.com/gp/product/B01FSYBQ9Q).
 - The housing itself is fully 3D printed. The STLs and STEP files are available in this repository, and also on [Thingiverse](https://www.thingiverse.com/thing:5533111). You will need 1X of each part.
 - 3X M3-0.5 x 8mm flat head countersunk screws
-- 2X ~5" pieces of wire to connect the plug to the charger board. I used 20awg, but it isn't important.
+- 2X ~5" pieces of wire to connect the plug to the charger board. I used 20awg, but anything around 18-24awg should be fine.
 
 ![PXL_20220926_114124538](https://user-images.githubusercontent.com/13952475/192278685-898deb84-dc93-4881-b344-dffaf04ae0bf.jpg)
 
