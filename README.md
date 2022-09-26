@@ -8,7 +8,7 @@ This repository contains everything needed to build a plug-in mmWave presence se
 
 - The mmWave sensor itself: [DFRobot SEN0395](https://www.dfrobot.com/product-2282.html)
 - The ESP32: I used [this one](https://smile.amazon.com/gp/product/B08PNWB81Z), but any ESP32 D1 Mini should work. Just check the pinout and size to make sure it is the same.
-- This exact [USB charger](https://smile.amazon.com/gp/product/B07P41X3L3). The entire project has been designed to fit this exact charger, so subbing in a different model would require substantial redesign.
+- This exact [USB charger](https://smile.amazon.com/gp/product/B07P41X3L3). The entire project has been designed to fit this charger, so subbing in a different model would require substantial redesign.
 - A short micro USB to USB A cable, the shorter the better. I used [this one](https://smile.amazon.com/gp/product/B01FSYBQ9Q).
 - The housing itself is fully 3D printed. The STLs and STEP files are available in this repository, and also on [Thingiverse](https://www.thingiverse.com/thing:5533111). You will need 1X of each part.
 - 3X M3-0.5 x 8mm flat head countersunk screws
