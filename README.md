@@ -50,6 +50,8 @@ This repository contains everything needed to build a plug-in mmWave presence se
 
 ![PXL_20220926_114413633](https://user-images.githubusercontent.com/13952475/192280301-4ab52aeb-5f65-415b-977a-de116815b41a.jpg)
 
+3. Trim the excess length on the pins.
+
 # Program the ESP32
 
 1. Download the [esphome_config.yaml](esphome_config.yaml) file.
