@@ -27,16 +27,17 @@ This repository contains everything needed to build a plug-in mmWave presence se
 
 # USB Charger Modifications
 
-1. You will need two parts from the USB charger: the plug and the circuit board.
+1. Before opening up the charger, you should understand the risks. You are working with line voltage which carries certain dangers, both to yourself, as well as the chance of fire. If you aren't comfortable with that, there are plenty of other versions of this sensor that leave the micro USB port on the ESP32 exposed. That would allow you to use an unmodified USB charger to power it.
+2. You will need two parts from the USB charger: the plug and the circuit board.
 
 ![PXL_20220926_114234905](https://user-images.githubusercontent.com/13952475/192278229-41655264-f082-4b3a-a6d5-40a7087b3639.jpg)
 
-2. Carefully cut open the housing along the line where the gray and white plastics meet. I used a vertical bandsaw, but a rotary tool or even a hacksaw would probably be better choices. You want to just barely cut through the plastic without cutting into the circuit board.
+3. Carefully cut open the housing along the line where the gray and white plastics meet. I used a vertical bandsaw, but a rotary tool or even a hacksaw would probably be better choices. You want to just barely cut through the plastic without cutting into the circuit board.
 
 ![PXL_20220926_114312025](https://user-images.githubusercontent.com/13952475/192278281-cd9cd39d-70c2-44ea-8054-dc8243f1994e.jpg)
 
-3. Remove the front of the housing and discard. Set the circuit board aside.
-4. Drill and countersink the center of the plug end of the housing to fit your M3 screws:
+4. Remove the front of the housing and discard. Set the circuit board aside.
+5. Drill and countersink the center of the plug end of the housing to fit your M3 screws:
 
 ![PXL_20220926_114320623](https://user-images.githubusercontent.com/13952475/192277977-ec587d7a-f1b9-4737-adfb-2735a0946f53.jpg)
 
