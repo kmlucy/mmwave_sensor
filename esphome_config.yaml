@@ -1,0 +1,48 @@
+esphome:
+  name: [device name]
+  platform: ESP32
+  board: wemos_d1_mini32
+
+wifi:
+  ssid: [wifi ssid]
+  password: [wifi password]
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "[wifi fallback ssid]"
+    password: [wifi fallback passsword]
+
+captive_portal:
+
+logger:
+
+# Enable Home Assistant API
+api:
+  password: [api password]
+  encryption:
+    key: [api key]
+ota:
+  password: [ota password]
+
+# Sensor Setup
+substitutions:
+  device_name: leapmmw
+
+  # This will vary based on your board
+  uart_tx_pin: GPIO21
+
+  # This will vary based on your board
+  uart_rx_pin: GPIO22
+
+  # This will vary based on your board
+  gpio_pin: GPIO16
+
+  header_file: leapmmw_sensor.h
+
+packages:
+  remote_package:
+    url: https://github.com/hjmcnew/esphome-hs2xx3a-custom-component
+    ref: release
+    files: [packages/uart.yml, packages/leapmmw_sensor.yml]
+    # For additional debugging replace the above line with:
+    # files: [packages/uart_debug.yml, packages/leapmmw_sensor.yml]
