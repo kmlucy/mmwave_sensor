@@ -13,6 +13,7 @@ This repository contains everything needed to build a plug-in mmWave presence se
 - The housing itself is fully 3D printed. The STLs and STEP files are available in this repository, and also on [Thingiverse](https://www.thingiverse.com/thing:5533111). You will need 1X of each part.
 - 3X M3-0.5 x 8mm flat head countersunk screws
 - 2X ~5" pieces of wire to connect the plug to the charger board. I used 20awg, but anything around 18-24awg should be fine.
+- 1X fuse. I used [this one](https://smile.amazon.com/dp/B081Y8M4ZP), but as long as it is small enough to fit and blows below what your wire is rated for, it is good. (not shown in photo)
 
 ![PXL_20220926_114124538](https://user-images.githubusercontent.com/13952475/192278685-898deb84-dc93-4881-b344-dffaf04ae0bf.jpg)
 
@@ -84,9 +85,9 @@ This repository contains everything needed to build a plug-in mmWave presence se
 
 ![PXL_20220926_132422276](https://user-images.githubusercontent.com/13952475/192294247-92e39336-b97f-40fc-8083-17f65e2798d6.jpg)
 
-4. Solder the other end of the wire leads to the plug.
+4. Solder the other end of the wire leads to the plug, including the fuse between one of the leads and the plug.
 
-![PXL_20220926_132716060](https://user-images.githubusercontent.com/13952475/192294281-b391cb2b-0466-4f58-b2ea-a7570386a983.jpg)
+![PXL_20220929_192026678](https://user-images.githubusercontent.com/13952475/193124072-4d2395c2-9ba5-4451-846d-d1561e33643b.jpg)
 
 5. Insert the plug into the plug housing and screw it into place.
 
